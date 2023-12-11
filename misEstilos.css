@@ -1,0 +1,168 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color: blueviolet;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#Number1{
+    text-align: center;
+    width: 500px;
+    height: 50px;
+
+}
+
+#Number2{
+    text-align: center;
+    width: 500px;
+    height: 50px;
+}
+
+
+
+  #salidaCalculadora {
+    border: 1px solid #ccc; /* añadir un borde */
+    padding: 30px; /* agregar espacio interno */
+    margin-top: 100px; /* margen superior */
+    background-color: white;
+    width: 985px;
+    text-align: center;
+
+
+  }
+
+
+
+
+  .contenedor {
+    display: flex;
+    gap: 220px; /* Espacio entre botones */
+  }
+
+
+  .miBoton {
+    width: 90px; /* ajusta el ancho según sea necesario */
+    height: 90px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 20px;
+  }
+
+
+  .miInput {
+    font-size: 20px; /* Tamaño del texto dentro del input de número */
+    /* Otros estilos para el input de número */
+  }
+
+
+
+
+  .contenedor2 {
+    display: flex;
+    gap: 24px; /* Espacio entre botones */
+  }
+
+  .potencia{
+    width: 500px; /* ajusta el ancho según sea necesario */
+    height: 60px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+
+  .raize{
+    width: 500px; /* ajusta el ancho según sea necesario */
+    height: 60px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+
+
+  #miTexto {
+    animation-name: moverDerecha; /* Nombre de la animación */
+    animation-duration: 10s; /* Duración de la animación (4 segundos en este caso) */
+    animation-timing-function: linear; /* Función de temporización lineal */
+    animation-iteration-count: infinite; /* Repetir la animación infinitamente */
+    font-size: 60px; 
+  }
+  
+  @keyframes moverDerecha {
+    0% {
+      transform: translateX(0); /* Empieza desde la posición original */
+    }
+    100% {
+      transform: translateX(700px); /*se desplaza hacia la derecha */
+    }
+  }
+
+
+  .contenedor3 {
+    display: flex;
+    gap: 24px; /* Espacio entre botones */
+  }
+
+
+  .randem{
+    width: 500px; /* ajusta el ancho según sea necesario */
+    height: 60px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  .absolut{
+    width: 500px; /* ajusta el ancho según sea necesario */
+    height: 60px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+
+
+  .contenedor4 {
+    display: flex;
+    gap: 24px; /* Espacio entre botones */
+  }
+
+
+  .rounds{
+    width: 330px; /* ajusta el ancho según sea necesario */
+    height: 60px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  .floors{
+    width: 330px; /* ajusta el ancho según sea necesario */
+    height: 60px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+
+  .ceils{
+    width: 330px; /* ajusta el ancho según sea necesario */
+    height: 60px; /* ajusta la altura según sea necesario */
+    border-radius: 0; /* quita el redondeo de las esquinas */
+    font-size: 40px;
+    text-align: center;
+
+  }

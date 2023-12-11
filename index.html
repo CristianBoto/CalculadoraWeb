@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora</title>
+
+    <script src="misArchivos.js"></script>
+    <link rel="stylesheet" href="../misEstilos.css">
+</head>
+
+<body>
+    <h1 id="miTexto"><u>Calculadora</u></h1>
+
+
+    <br>
+    <input type="number" id="Number1" class="miInput"><!--Num 1-entrada--> <input type="number" id="Number2" class="miInput"><!--Num2-entrada-->
+ 
+    <br><br>
+
+    <div class="contenedor">
+    <button onclick="sumar()"  class="miBoton"> + </button>
+    <button  onclick="restar()"class="miBoton">-</button>
+
+    
+    <button onclick="multiplicar()" class="miBoton">x</button>
+    <button onclick="dividir()" class="miBoton">/</button>
+    </div>
+    <br><br>
+    
+    <div class="contenedor2">
+
+    <button onclick="Potencia()" class="potencia"> POTENCIA</button>
+    <button onclick="Raiz()" class="raize"> RAIZ</button>
+   
+    </div>
+    <br><br>
+
+    <div class="contenedor3">
+
+    <button onclick="Absoluto()" class="absolut"> ABSOLUTO </button>
+    <button onclick="Random()" class="randem"> RANDOM </button>
+   
+    </div>
+
+
+    <h2 id="salidaCalculadora"></h2>
+
+
+    <div class="contenedor4">
+
+        <button onclick="Round()" class="rounds"> ROUND</button>
+        <button onclick="Floor()" class="floors"> FLOOR </button>
+        <button onclick="Ceil()" class="ceils"> CEIL </button>
+
+       
+        </div>
+
+
+
+
+
+
+</body>
+</html>
